@@ -10,9 +10,9 @@ const Home = () => {
       {/* nav */}
       <nav class="navbar navbar-expand-lg navbar-light px-5">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Navbar
-          </a>
+          <h2 style={{ color: "#ed9924" }} class="navbar-brand" href="#">
+            Ahanaf Abdullah
+          </h2>
           <button
             class="navbar-toggler"
             type="button"
@@ -27,27 +27,36 @@ const Home = () => {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">
+                <a
+                  style={{ color: "white" }}
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#home"
+                >
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">
+                <a style={{ color: "white" }} class="nav-link" href="#about">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects">
+                <a
+                  style={{ color: "white" }}
+                  class="nav-link"
+                  href="#projects2"
+                >
                   Projects
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#blogs">
+                <a style={{ color: "white" }} class="nav-link" href="#blogs">
                   Blogs
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">
+                <a style={{ color: "white" }} class="nav-link" href="#contact">
                   Contact
                 </a>
               </li>
@@ -58,7 +67,7 @@ const Home = () => {
       {/* nav end */}
 
       <div class="layer ">
-        <h1>Aahnaf Abdullah</h1>
+        <h1>Ahnaf Abdullah</h1>
         <Typed
           className="typed"
           strings={["Web Developer", "Front-End Developer"]}

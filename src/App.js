@@ -3,14 +3,19 @@ import About from "./Components/About/About";
 import Blogs from "./Components/Blogs/Blogs";
 import Contacts from "./Components/Contacts/Contacts";
 import Home from "./Components/Home/Home";
-import Projects from "./Components/Projects/Projects";
+
+import Projects2 from "./Components/Projects2/Projects2";
+
+import Services from "./Components/Services/Services";
 
 function App() {
   return (
     <div className="App">
       <Home />
       <About />
-      <Projects />
+      <Services />
+
+      <Projects2 />
       <Blogs />
       <Contacts />
     </div>

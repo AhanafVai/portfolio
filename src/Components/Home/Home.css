@@ -1,5 +1,5 @@
 .background {
-  background: url("../../Image/kalen-emsley-Bkci_8qcdvQ-unsplash.jpg");
+  background: url("../../Image/christopher-gower-m_HRfLhgABo-unsplash.jpg");
   position: relative;
   background-size: cover;
   width: 100%;
@@ -9,7 +9,7 @@
 
 .layer {
   padding-top: 10rem;
-  background-color: rgba(199, 199, 199, 0.7);
+  background-color: rgba(51, 51, 51, 0.9);
   position: absolute;
   top: 0;
   left: 0;
@@ -44,6 +44,7 @@
     font-size: 1rem;
   }
   .navbar {
+    color: aliceblue;
     background-color: aliceblue;
   }
 }
